@@ -23,8 +23,8 @@ This script uses the **Forecast.Solar** API to retrieve solar energy production 
    cd SolarProductionForecast
 
 2. Install dependencies:
-   ```bash
-    pip install requests
+    
+       pip install requests
 
 3. Create a configuration file ConfigSolar.json in the script directory with the following structure:
    ```bash
@@ -42,7 +42,7 @@ This script uses the **Forecast.Solar** API to retrieve solar energy production 
 
      Run the script from the terminal:
     
-            python ForecastSolarAPI.py
+       python ForecastSolarAPI.py
 
  The script will display production estimates for today or tomorrow, depending on the data availability.
 
